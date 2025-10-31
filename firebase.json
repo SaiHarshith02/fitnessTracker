@@ -1,6 +1,5 @@
 {
   "hosting": {
-    "site": "fitness-tracker",
     "public": "dist",
     "ignore": [
       "firebase.json",

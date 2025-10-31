@@ -51,6 +51,7 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
 
       setCurrentUser(user);
     } catch (error) {
+      console.error('Signup error:', error);
       throw error;
     }
   }, []);
@@ -60,6 +61,7 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
       const userCredential = await signInWithEmailAndPassword(auth, email, password);
       setCurrentUser(userCredential.user);
     } catch (error) {
+      console.error('Login error:', error);
       throw error;
     }
   }, []);
@@ -69,6 +71,7 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
       await signOut(auth);
       setCurrentUser(null);
     } catch (error) {
+      console.error('Logout error:', error);
       throw error;
     }
   }, []);
@@ -77,6 +80,7 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
     try {
       await sendPasswordResetEmail(auth, email);
     } catch (error) {
+      console.error('Reset password error:', error);
       throw error;
     }
   }, []);

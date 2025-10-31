@@ -10,26 +10,26 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.17.0",
+    "axios": "^1.6.2",
     "firebase": "^10.6.0",
     "framer-motion": "^10.16.4",
-    "react-i18next": "^13.4.0",
     "i18next": "^23.7.6",
-    "recharts": "^2.10.3",
-    "axios": "^1.6.2",
-    "lucide-react": "^0.294.0"
+    "lucide-react": "^0.294.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^13.4.0",
+    "react-router-dom": "^6.17.0",
+    "recharts": "^2.10.3"
   },
   "devDependencies": {
     "@types/react": "^18.2.37",
     "@types/react-dom": "^18.2.15",
     "@vitejs/plugin-react": "^4.2.0",
-    "vite": "^5.0.8",
-    "typescript": "^5.2.2",
-    "tailwindcss": "^3.3.6",
+    "autoprefixer": "^10.4.16",
     "postcss": "^8.4.31",
-    "autoprefixer": "^10.4.16"
+    "tailwindcss": "^3.3.6",
+    "typescript": "^5.2.2",
+    "vite": "^7.1.12"
   },
   "repository": {
     "type": "git",
@@ -38,6 +38,15 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "browserslist": [
+    "Chrome >= 54",
+    "ChromeAndroid >= 54",
+    "Edge >= 79",
+    "Firefox >= 60",
+    "Safari >= 10",
+    ">0.2%",
+    "not dead"
+  ],
   "bugs": {
     "url": "https://github.com/SaiHarshith02/fitnessTracker/issues"
   },

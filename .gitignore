@@ -28,6 +28,7 @@ build/
 firebase-debug.log
 firebase-debug.*.log
 .runtimeconfig.json
+firebase/serviceAccountKey.json
 
 # Python
 __pycache__/
