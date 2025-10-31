@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Apple, RefreshCw, Eye, Plus, Trash2, Loader } from 'lucide-react';
+import { Apple, RefreshCw, Plus, Trash2, Loader } from 'lucide-react';
 import { COLORS } from '../utils/constants';
 import { motion } from 'framer-motion';
 
