@@ -18,7 +18,7 @@ export const Dashboard: React.FC = () => {
   const { currentUser } = useAuth();
   const [stats, setStats] = useState<StatCard[]>([]);
   const [quote, setQuote] = useState('');
-  const [recentWorkouts, setRecentWorkouts] = useState<any[]>([]);
+  const [recentWorkouts] = useState<any[]>([]);
 
   useEffect(() => {
     // Initialize stats
