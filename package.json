@@ -1,0 +1,21 @@
+{
+  "name": "fitnesstracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://x-access-token:ghs_gKio7cX0YuILzT4njkS9e59tTxOBGB4Tytd7@github.com/SaiHarshith02/fitnessTracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/SaiHarshith02/fitnessTracker/issues"
+  },
+  "homepage": "https://github.com/SaiHarshith02/fitnessTracker#readme"
+}
